@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marcos Samuel | Full Stack Junior</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="navegacao" role="navigation" aria-label="Main Navigation">
+    <div class="nav-container">
+      <div class="nav-left">
+        <span class="logo">MS</span>
+      </div>
+
+      <div class="nav-right">
+        <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+        <ul class="menu" role="menubar">
+          <li role="none"><a role="menuitem" href="#inicio" class="menu-link">Início</a></li>
+          <li role="none"><a role="menuitem" href="#sobre" class="menu-link">Sobre</a></li>
+          <li role="none"><a role="menuitem" href="#skills" class="menu-link">Skills</a></li>
+          <li role="none"><a role="menuitem" href="#projetos" class="menu-link">Projetos</a></li>
+          <li role="none"><a role="menuitem" href="#background" class="menu-link">Background</a></li>
+          <li role="none"><a role="menuitem" href="#contato" class="menu-link">Contato</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button id="langToggle" class="lang-toggle" aria-label="Toggle language">EN</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <main id="inicio" class="cabecalho reveal-on-scroll" tabindex="-1">
+    <img src="img/fotoperfil2.jpeg" alt="Foto de perfil Marcos Samuel" class="foto-perfil" />
+
+    <h1 class="text-pt">Marcos Samuel</h1>
+    <h1 class="text-en" style="display:none">Marcos Samuel</h1>
+
+    <p class="cabecalho-subtitulo text-pt">
+      Desenvolvedor Full Stack Júnior focado em criar aplicações web modernas, organizadas e escaláveis com React, Node.js, Next.js, TypeScript.
+    </p>
+    <p class="cabecalho-subtitulo text-en" style="display:none">
+      Full Stack Junior Developer focused on building modern, well-structured and scalable web applications with React, Node.js, Next.js, TypeScript.
+    </p>
+
+    <div class="cabecalho-botoes">
+      <a href="#projetos" class="btn btn-primario">Ver Projetos</a>
+      <a href="#contato" class="btn btn-secundario">Fale Comigo</a>
+    </div>
+  </main>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="reveal-on-scroll">
+    <h2>
+      <span class="text-pt">Sobre Mim</span>
+      <span class="text-en" style="display:none">About Me</span>
+    </h2>
+
+    <div class="sobre-caixa">
+      <p class="text-pt">
+        Sou estudante de Análise e Desenvolvimento de Sistemas e Desenvolvedor Full Stack em transição de
+        carreira após 7 anos no Exército Brasileiro. Tenho experiência prática em projetos web utilizando React,
+        Node.js, JavaScript e bancos de dados SQL, sempre focado em boas práticas, organização de código e
+        aprendizado contínuo.
+      </p>
+
+      <p class="text-en" style="display:none">
+        I am a Systems Analysis & Development student and Full Stack Developer transitioning careers after 7 years
+        in the Brazilian Army. I have hands-on experience building web projects with React, Node.js, JavaScript and
+        SQL databases, focusing on best practices, clean code and continuous learning.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="reveal-on-scroll">
+    <h2><span class="text-pt">Habilidades Técnicas</span><span class="text-en" style="display:none">Technical Skills</span></h2>
+
+    <div class="skills-caixa">
+      <div class="skill-card">
+        <h3>Front-end</h3>
+        <p>HTML5, CSS3, JavaScript (ES6+), React</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Back-end</h3>
+        <p>Node.js, Express, APIs REST</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Banco de Dados</h3>
+        <p>PostgreSQL, MySQL, MongoDB</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Ferramentas</h3>
+        <p>Git, GitHub, Postman, Docker (básico)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="reveal-on-scroll">
+    <h2><span class="text-pt">Projetos</span><span class="text-en" style="display:none">Projects</span></h2>
+
+    <div class="projetos-caixa">
+
+      <article class="projeto-card">
+        <img data-src="img/projetolojaapi.png" src="img/placeholder.png" alt="E-commerce API" />
+        <div class="projeto-info">
+          <h3>E-commerce Web (API)</h3>
+          <p>
+            Aplicação web com consumo de API externa, listagem dinâmica de produtos, filtros e lógica de carrinho.
+          </p>
+          <div class="projeto-acoes">
+            <a class="btn btn-primario" href="https://marcossamueldev.github.io/estudos/estudosiniciais/aprendendoapi/loja-barattie/category.html" target="_blank" rel="noopener">Ver Projeto</a>
+            <a class="btn btn-outline" href="https://github.com/marcossamueldev/estudos" target="_blank" rel="noopener">Ver Código</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="projeto-card">
+        <img data-src="img/sitecafeteria.png" src="img/placeholder.png" alt="Site Cafeteria" />
+        <div class="projeto-info">
+          <h3>Site Cafeteria</h3>
+          <p>Site institucional mobile-first com foco em UX, HTML semântico e responsividade.</p>
+          <div class="projeto-acoes">
+            <a class="btn btn-primario" href="https://marcossamueldev.github.io/estudos/estudosiniciais/site-cafeteria/" target="_blank" rel="noopener">Ver Projeto</a>
+            <a class="btn btn-outline" href="https://github.com/marcossamueldev/estudos" target="_blank" rel="noopener">Ver Código</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- BACKGROUND & CERTIFICADOS -->
+  <section id="background" class="reveal-on-scroll">
+    <h2><span class="text-pt">Background Técnico & Certificações</span><span class="text-en" style="display:none">Technical Background & Certifications</span></h2>
+
+    <div class="sobre-caixa">
+      <p class="text-pt">
+        Além do desenvolvimento, tenho formação técnica e experiência prática em áreas industriais e manutenção:
+        torneiro mecânico, manutenção de máquinas industriais, piloto de drone (operacional), eletricista industrial,
+        eletricista predial e residencial. Essas experiências me deram disciplina técnica, leitura de esquemas,
+        segurança, e capacidade de resolver problemas práticos em campo — competências transferíveis para ambientes de TI.
+      </p>
+
+      <p class="text-en" style="display:none">
+        In addition to software development, I have technical training and hands-on experience in industrial and maintenance fields:
+        machinist (lathe), industrial machine maintenance, drone pilot (operational), industrial electrician, and residential/installation electrician.
+        These experiences provided technical discipline, schematic reading, safety awareness and practical problem solving skills that transfer well to IT environments.
+      </p>
+
+      <div class="certificados-grid">
+        <!-- replace href with real PDF or image links -->
+        <a class="cert-card" href="assets/cert-torneiro.pdf" target="_blank" rel="noopener">
+          <strong>Torneiro Mecânico</strong><span class="cert-sub">Certificado</span>
+        </a>
+
+        <a class="cert-card" href="assets/cert-manutencao.pdf" target="_blank" rel="noopener">
+          <strong>Manutenção em Máquinas Industriais</strong><span class="cert-sub">Certificado</span>
+        </a>
+
+        <a class="cert-card" href="assets/cert-drone.pdf" target="_blank" rel="noopener">
+          <strong>Piloto de Drone</strong><span class="cert-sub">Certificado</span>
+        </a>
+
+        <a class="cert-card" href="assets/cert-eletricista-industrial.pdf" target="_blank" rel="noopener">
+          <strong>Eletricista Industrial</strong><span class="cert-sub">Certificado</span>
+        </a>
+
+        <a class="cert-card" href="assets/cert-eletricista-predial.pdf" target="_blank" rel="noopener">
+          <strong>Eletricista Predial / Residencial</strong><span class="cert-sub">Certificado</span>
+        </a>
+      </div>
+
+      <p style="margin-top:1rem; opacity:0.9;">
+        <span class="text-pt">Se desejar, posso enviar cópias dos certificados mediante solicitação.</span>
+        <span class="text-en" style="display:none">If requested, I can provide copies of these certificates.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="reveal-on-scroll">
+    <h2><span class="text-pt">Contato</span><span class="text-en" style="display:none">Contact</span></h2>
+
+    <form class="formulario" id="contactForm">
+      <input type="text" id="nome" placeholder="Seu nome / Your name" required />
+      <textarea id="mensagem" placeholder="Sua mensagem / Your message" required></textarea>
+      <button type="submit" class="whatsapp-btn">
+        <span class="text-pt">Enviar pelo WhatsApp</span><span class="text-en" style="display:none">Send via WhatsApp</span>
+      </button>
+    </form>
+
+    <div class="redes-sociais">
+      <a href="https://linkedin.com/in/marcos-samuel-dev" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/marcossamueldev" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:marcossamuelps.dev@gmail.com" target="_blank" rel="noopener">Email</a>
+    </div>
+  </section>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

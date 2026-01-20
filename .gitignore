@@ -1,0 +1,7 @@
+# Ignore folders that are not part of this project
+lista-de-compras/
+../lista-de-compras/
+
+# Ignore OS / editor files
+.DS_Store
+node_modules/
